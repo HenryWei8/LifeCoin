@@ -5,7 +5,7 @@
 </script>
 
 <div
-    class="grid min-h-screen px-12 xl:px-24"
+    class="grid min-h-screen px-12 xl:px-20"
     style="grid-template-rows: auto 1fr auto;"
 >
     <Header />
