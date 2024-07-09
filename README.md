@@ -1,38 +1,25 @@
-# create-svelte
+# Life Coin
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Local Development
 
-## Creating a project
+### Setup
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Install [Node.js 20.x.x](https://nodejs.org/en)
+2. Clone the repository locally.
+    ```shell
+    git clone https://github.com/principle105/wordpractice.io
+    ```
+3. Install the dependencies.
+    ```shell
+    npm install
+    ```
+4. Create a `.env` file in the root directory of the repository.
+5. Copy the content from `.env.example` into `.env` and fill it with the necessary information.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Usage
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+To start the development server, run
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+```shell
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
